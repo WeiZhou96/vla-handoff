@@ -1,0 +1,354 @@
+{
+ "job_id": "label_0383d5c1c5f674191d81e8e4",
+ "sample_id": "f2351fdb436f4d6c395d6af128aa323d91e80094e0b76d6f23d624580e2a41dc:4",
+ "task_b": "lift_red_block_slider",
+ "arms": [
+  {
+   "candidate": "none",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": true,
+     "steps": 302
+    },
+    {
+     "repeat": 1,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 2,
+     "success": true,
+     "steps": 300
+    },
+    {
+     "repeat": 3,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 4,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 5,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 6,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 7,
+     "success": false,
+     "steps": 360
+    }
+   ],
+   "k": 2,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "stored_A_none_identity_by_construction"
+  },
+  {
+   "candidate": "rotate_blue_block_left",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 1,
+     "success": true,
+     "steps": 44
+    },
+    {
+     "repeat": 2,
+     "success": true,
+     "steps": 62
+    },
+    {
+     "repeat": 3,
+     "success": true,
+     "steps": 48
+    },
+    {
+     "repeat": 4,
+     "success": true,
+     "steps": 61
+    },
+    {
+     "repeat": 5,
+     "success": true,
+     "steps": 63
+    },
+    {
+     "repeat": 6,
+     "success": true,
+     "steps": 104
+    },
+    {
+     "repeat": 7,
+     "success": true,
+     "steps": 304
+    }
+   ],
+   "k": 7,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "B_def_relabel"
+  },
+  {
+   "candidate": "lift_pink_block_slider",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": true,
+     "steps": 79
+    },
+    {
+     "repeat": 1,
+     "success": true,
+     "steps": 223
+    },
+    {
+     "repeat": 2,
+     "success": true,
+     "steps": 173
+    },
+    {
+     "repeat": 3,
+     "success": true,
+     "steps": 74
+    },
+    {
+     "repeat": 4,
+     "success": true,
+     "steps": 78
+    },
+    {
+     "repeat": 5,
+     "success": true,
+     "steps": 182
+    },
+    {
+     "repeat": 6,
+     "success": true,
+     "steps": 80
+    },
+    {
+     "repeat": 7,
+     "success": true,
+     "steps": 68
+    }
+   ],
+   "k": 8,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "B_def_relabel"
+  },
+  {
+   "candidate": "push_red_block_right",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 1,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 2,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 3,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 4,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 5,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 6,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 7,
+     "success": false,
+     "steps": 360
+    }
+   ],
+   "k": 0,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "B_def_relabel"
+  },
+  {
+   "candidate": "rotate_red_block_right",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 1,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 2,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 3,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 4,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 5,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 6,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 7,
+     "success": false,
+     "steps": 360
+    }
+   ],
+   "k": 0,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "B_def_relabel"
+  },
+  {
+   "candidate": "home",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 1,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 2,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 3,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 4,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 5,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 6,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 7,
+     "success": false,
+     "steps": 360
+    }
+   ],
+   "k": 0,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "B_def_relabel"
+  },
+  {
+   "candidate": "push_into_drawer",
+   "rollouts": [
+    {
+     "repeat": 0,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 1,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 2,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 3,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 4,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 5,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 6,
+     "success": false,
+     "steps": 360
+    },
+    {
+     "repeat": 7,
+     "success": false,
+     "steps": 360
+    }
+   ],
+   "k": 0,
+   "n": 8,
+   "restore_max_error": 0.0,
+   "label_source": "B_def_relabel"
+  }
+ ],
+ "seconds": 584.6,
+ "gpu": 2,
+ "criterion": "B_def",
+ "relabel_root": "<HANDOFF_RUN_ROOT>/relabel_bdef_20261011"
+}

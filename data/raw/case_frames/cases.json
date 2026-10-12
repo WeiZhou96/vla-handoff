@@ -1,0 +1,194 @@
+{
+ "push_red_block_right": {
+  "task": "push_red_block_right",
+  "sample_id": "3c70f2067015badc5a8b77f9aa4c831f4d4e5004bcca3d48966a8fd3d7dfcf18:4",
+  "parent_id": "200214bd3b00c6fc004e5f2f3d8c5892556da5030f0d90ae63a1fb7ab27e9d38",
+  "key": "f675d6b8cbf5",
+  "branches": [
+   {
+    "candidate": "none",
+    "k": 0,
+    "n": 8,
+    "role": "none",
+    "wins": "00000000",
+    "verifier_score": null
+   },
+   {
+    "candidate": "push_into_drawer",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.40217587058000337
+   },
+   {
+    "candidate": "rotate_pink_block_right",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.38071603359635453
+   },
+   {
+    "candidate": "lift_pink_block_table",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.3725281647337409
+   },
+   {
+    "candidate": "retreat",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.36863034259293587
+   },
+   {
+    "candidate": "turn_off_led",
+    "k": 0,
+    "n": 8,
+    "role": "random",
+    "wins": "00000000",
+    "verifier_score": 0.3356014316525108
+   },
+   {
+    "candidate": "rotate_red_block_right",
+    "k": 0,
+    "n": 8,
+    "role": "random",
+    "wins": "00000000",
+    "verifier_score": 0.32672078023719175
+   }
+  ]
+ },
+ "lift_red_block_slider": {
+  "task": "lift_red_block_slider",
+  "sample_id": "f2351fdb436f4d6c395d6af128aa323d91e80094e0b76d6f23d624580e2a41dc:4",
+  "parent_id": "514276236e27d8bab959be3445ef77252bd2d9d742f2f5e1124b76fbfad1b7d8",
+  "key": "0383d5c1c5f6",
+  "branches": [
+   {
+    "candidate": "none",
+    "k": 2,
+    "n": 8,
+    "role": "none",
+    "wins": "10100000",
+    "verifier_score": null
+   },
+   {
+    "candidate": "rotate_blue_block_left",
+    "k": 7,
+    "n": 8,
+    "role": "top",
+    "wins": "01111111",
+    "verifier_score": 0.8079697318828898
+   },
+   {
+    "candidate": "lift_pink_block_slider",
+    "k": 8,
+    "n": 8,
+    "role": "top",
+    "wins": "11111111",
+    "verifier_score": 0.7972404980925621
+   },
+   {
+    "candidate": "push_red_block_right",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.7728923087288941
+   },
+   {
+    "candidate": "rotate_red_block_right",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.7550275660828565
+   },
+   {
+    "candidate": "home",
+    "k": 0,
+    "n": 8,
+    "role": "random",
+    "wins": "00000000",
+    "verifier_score": 0.7164068472738471
+   },
+   {
+    "candidate": "push_into_drawer",
+    "k": 0,
+    "n": 8,
+    "role": "random",
+    "wins": "00000000",
+    "verifier_score": 0.5258479273246432
+   }
+  ]
+ },
+ "rotate_pink_block_right": {
+  "task": "rotate_pink_block_right",
+  "sample_id": "1db6c4daad5206f2925f4632c751d433b2f52fde43fddb17734ed09ec3ca5b8e:3",
+  "parent_id": "34640d1ae55d2ea9cd66eb17d3ced0e20e2ece3e472c32a46aa9788e2d64cc06",
+  "key": "fb18663a7110",
+  "branches": [
+   {
+    "candidate": "none",
+    "k": 0,
+    "n": 8,
+    "role": "none",
+    "wins": "00000000",
+    "verifier_score": null
+   },
+   {
+    "candidate": "open_drawer",
+    "k": 3,
+    "n": 8,
+    "role": "top",
+    "wins": "00001101",
+    "verifier_score": 0.5516439196678181
+   },
+   {
+    "candidate": "lift_pink_block_drawer",
+    "k": 1,
+    "n": 8,
+    "role": "top",
+    "wins": "00000100",
+    "verifier_score": 0.4719038091299064
+   },
+   {
+    "candidate": "home",
+    "k": 2,
+    "n": 8,
+    "role": "top",
+    "wins": "00010010",
+    "verifier_score": 0.4587860926666615
+   },
+   {
+    "candidate": "place_in_drawer",
+    "k": 0,
+    "n": 8,
+    "role": "top",
+    "wins": "00000000",
+    "verifier_score": 0.45005739554311824
+   },
+   {
+    "candidate": "retreat",
+    "k": 1,
+    "n": 8,
+    "role": "random",
+    "wins": "00000010",
+    "verifier_score": 0.39599530391629684
+   },
+   {
+    "candidate": "lift_pink_block_table",
+    "k": 8,
+    "n": 8,
+    "role": "random",
+    "wins": "11111111",
+    "verifier_score": 0.3950722940875844
+   }
+  ]
+ }
+}

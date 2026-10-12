@@ -2,6 +2,8 @@
 
 Code and result data for the paper **"Handoff Failures, Repair and Success Criteria for Frozen Vision–Language–Action Policies"** (submitted to *Robotics and Autonomous Systems*).
 
+Authors: Zhenyu Chen, Cong Lou, Yong Huang, Li Yang, Wei Zhou (corresponding author: Wei Zhou, Nanjing University of Science and Technology).
+
 The study runs a frozen π0.5 policy on CALVIN (and LIBERO-Goal) and
 
 1. restores the exact simulator state at subtask handoffs and re-executes the next subtask with 8 controlled seeds, to split handoff-outcome variance into a handoff-state part and rollout noise;
@@ -37,7 +39,7 @@ python compute_fullchain.py    # full-chain replay records          -> data/deri
 python compute_round3.py       # round-3, relabelling, offline B    -> data/derived/round3_stats.json
 python make_tables.py          # -> tables/*.tex
 python fig_decomposition.py; python fig_mechanism.py; python fig_pertask.py
-python fig_forest.py; python fig_paired.py; python fig_overview.py   # -> figures/
+python fig_forest.py; python fig_paired.py; python fig_overview.py; python fig_cases.py   # -> figures/
 ```
 
 `compute_stats.py` compares its recomputed summaries with the analysis reports produced on the server and stops on any mismatch above 1e-9; `compute_fullchain.py` and `compute_round3.py` run their own consistency checks and stop if one fails. With the pinned package versions, `make_tables.py` reproduces the files in `tables/` byte for byte (up to the platform's line endings); the regenerated JSON files in `data/derived/` differ from the committed ones at most in recorded input hashes and the creation time stamp. The figures use Calibri when it is installed and otherwise fall back to Arial / DejaVu Sans, so glyph shapes can differ from the published figures.
@@ -147,3 +149,11 @@ No computation was changed. Because of these edits, the released files no longer
 ## License
 
 MIT, see `LICENSE`. CALVIN, calvin_env (MIT) and RLinf (Apache-2.0) are used as external dependencies and are not redistributed here.
+
+## Citation
+
+If you use this code or data, please cite the paper (see `CITATION.cff`):
+
+```
+Zhenyu Chen, Cong Lou, Yong Huang, Li Yang, Wei Zhou. Handoff Failures, Repair and Success Criteria for Frozen Vision–Language–Action Policies. Submitted to Robotics and Autonomous Systems, 2026.
+```

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: If you use this code or data, please cite the paper.
+title: "vla-handoff: code and data for Handoff Failures, Repair and Success Criteria for Frozen Vision–Language–Action Policies"
+type: software
+license: MIT
+repository-code: https://github.com/WeiZhou96/vla-handoff
+version: 1.0
+authors:
+  - family-names: Chen
+    given-names: Zhenyu
+  - family-names: Lou
+    given-names: Cong
+    orcid: https://orcid.org/0009-0003-2869-7516
+  - family-names: Huang
+    given-names: Yong
+  - family-names: Yang
+    given-names: Li
+    orcid: https://orcid.org/0000-0002-8152-7642
+  - family-names: Zhou
+    given-names: Wei
+    orcid: https://orcid.org/0000-0003-3225-0576
+preferred-citation:
+  type: article
+  title: "Handoff Failures, Repair and Success Criteria for Frozen Vision–Language–Action Policies"
+  journal: Robotics and Autonomous Systems
+  status: submitted
+  year: 2026
+  authors:
+    - family-names: Chen
+      given-names: Zhenyu
+    - family-names: Lou
+      given-names: Cong
+      orcid: https://orcid.org/0009-0003-2869-7516
+    - family-names: Huang
+      given-names: Yong
+    - family-names: Yang
+      given-names: Li
+      orcid: https://orcid.org/0000-0002-8152-7642
+    - family-names: Zhou
+      given-names: Wei
+      orcid: https://orcid.org/0000-0003-3225-0576
