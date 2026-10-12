@@ -1,0 +1,14 @@
+\multicolumn{8}{@{}l}{\textit{Baselines}} \\
+\quad No intervention & \npbar[bargrey]{0.502}{50.2} & \textcolor{muted}{0.502} & 474 & 0.579 & 0.00 & $-$4.7 {\scriptsize[$-$6.8, $-$2.8]} & \textcolor{muted}{$-$3.5 {\scriptsize[$-$5.7, $-$1.7]}} \\
+\quad Retry once & \npbar[bargrey]{\underline{0.550}}{55.0} & \textcolor{muted}{0.537} & 581 & 0.572 & 0.00 & -- & \textcolor{muted}{--} \\
+\quad Home before every target & \npbar[bargrey]{0.498}{49.8} & \textcolor{muted}{0.478} & 647 & 0.532 & 1.27 & $-$5.2 {\scriptsize[$-$9.7, $-$0.5]} & \textcolor{muted}{$-$6.0 {\scriptsize[$-$10.3, $-$1.5]}} \\
+\addlinespace[2pt]
+\multicolumn{8}{@{}l}{\textit{Repair rules}} \\
+\rowcolor{retrtint}\quad Task-prior repair & \npbar[bargrey]{0.507}{50.7} & \textcolor{muted}{0.517} & 748 & 0.513 & 1.26 & $-$4.2 {\scriptsize[$-$8.8, 0.5]} & \textcolor{muted}{$-$2.0 {\scriptsize[$-$7.0, 2.9]}} \\
+\rowcolor{retrtint}\quad Inverse-skill rule & \npbar[bargrey]{0.522}{52.2} & \textcolor{muted}{0.575} & 637 & 0.546 & 0.42 & $-$2.7 {\scriptsize[$-$5.8, 0.3]} & \textcolor{muted}{$+$3.7 {\scriptsize[0.2, 7.4]}} \\
+\addlinespace[2pt]
+\multicolumn{8}{@{}l}{\textit{Learned selector}} \\
+\rowcolor{qaetint}\quad Benefit gate (ours) & \npbar[barblue]{\textbf{0.552}}{55.2} & \textcolor{muted}{0.562} & 635 & 0.558 & 0.48 & \marg{$+$0.2} {\scriptsize[$-$3.0, 3.4]} & \textcolor{muted}{$+$2.5 {\scriptsize[$-$1.0, 6.2]}} \\
+\quad Ours, no retry & \npbar[bargrey]{0.493}{49.3} & \textcolor{muted}{0.522} & 524 & 0.558 & 0.48 & $-$5.7 {\scriptsize[$-$9.2, $-$2.4]} & \textcolor{muted}{$-$1.5 {\scriptsize[$-$5.4, 2.3]}} \\
+\quad Ours, locator-free & \npbar[bargrey]{0.535}{53.5} & \textcolor{muted}{0.540} & 664 & 0.544 & 0.67 & $-$1.5 {\scriptsize[$-$5.3, 2.2]} & \textcolor{muted}{$+$0.2 {\scriptsize[$-$3.5, 4.0]}} \\
+\quad Ours, no prior input & \npbar[bargrey]{0.547}{54.7} & \textcolor{muted}{0.567} & 597 & 0.568 & 0.12 & $-$0.2 {\scriptsize[$-$1.1, 0.5]} & \textcolor{muted}{$+$3.0 {\scriptsize[1.0, 5.1]}} \\

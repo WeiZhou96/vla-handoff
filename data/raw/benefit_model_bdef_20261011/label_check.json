@@ -1,0 +1,99 @@
+{
+ "dirs": {
+  "multitask_vocab_20261002": {
+   "label_new": 181,
+   "label_old": 181,
+   "same_file_set": true,
+   "arms_valid": 1267,
+   "k_changed": 79,
+   "j8": 390,
+   "j8_not_identical": 0
+  },
+  "gating_vocab_20261003": {
+   "label_new": 150,
+   "label_old": 150,
+   "same_file_set": true,
+   "arms_valid": 1050,
+   "k_changed": 54,
+   "j8": 0,
+   "j8_not_identical": 0
+  },
+  "newtasks_20261004": {
+   "label_new": 239,
+   "label_old": 239,
+   "same_file_set": true,
+   "arms_valid": 1870,
+   "k_changed": 112,
+   "j8": 720,
+   "j8_not_identical": 0
+  }
+ },
+ "problems": [],
+ "n_problems": 0,
+ "k_change_by_task": {
+  "push_red_block_right": 46,
+  "rotate_pink_block_right": 31,
+  "push_blue_block_right": 56,
+  "rotate_red_block_left": 42,
+  "push_pink_block_right": 66,
+  "lift_pink_block_drawer": 4
+ },
+ "criterion": {
+  "B_def": 570
+ },
+ "label_source": {
+  "B_def_relabel": 2802,
+  "stored_A_none_identity_by_construction": 524,
+  "B_def_identity_check": 46,
+  "stored_A_not_in_relabel_plan_unmoved": 815
+ },
+ "k_change_expected_6a": {
+  "lift_blue_block_slider": 0,
+  "lift_pink_block_drawer": 4,
+  "lift_pink_block_slider": 0,
+  "lift_red_block_slider": 0,
+  "push_blue_block_right": 56,
+  "push_into_drawer": 0,
+  "push_pink_block_right": 66,
+  "push_red_block_right": 46,
+  "rotate_pink_block_right": 31,
+  "rotate_red_block_left": 42,
+  "stack_block": 0
+ },
+ "k_change_matches_6a_report": true,
+ "mapping_json_found": [
+  "<HANDOFF_RUN_ROOT>/relabel_bdef_20261011/mapping.json"
+ ],
+ "data_composition": {
+  "v4": {
+   "natural": 1256,
+   "repaired": 3903,
+   "states": {
+    "vocab": 181,
+    "gate": 150,
+    "nt": 239,
+    "hand": 82
+   }
+  },
+  "v3": {
+   "natural": 1256,
+   "repaired": 3903,
+   "states": {
+    "vocab": 181,
+    "gate": 150,
+    "nt": 239,
+    "hand": 82
+   }
+  },
+  "equal": true
+ },
+ "repair_step_sources": {
+  "vocab:sample_id": 181,
+  "gate:sample_id": 150,
+  "nt:sample_id": 239
+ },
+ "hand_step_key": {
+  "repair_steps": 286
+ },
+ "ok": true
+}

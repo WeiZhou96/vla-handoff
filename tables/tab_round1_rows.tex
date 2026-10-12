@@ -1,0 +1,17 @@
+\multicolumn{8}{@{}l}{\textit{Baselines}} \\
+\quad No intervention & \npbar[bargrey]{0.368}{36.8} & \textcolor{muted}{0.368} & 497 & 0.482 & 0.00 & $-$8.4 {\scriptsize[$-$11.3, $-$5.5]} & \textcolor{muted}{$-$6.4 {\scriptsize[$-$9.0, $-$3.9]}} \\
+\quad Retry once & \npbar[bargrey]{0.453}{45.3} & \textcolor{muted}{0.432} & 651 & 0.485 & 0.00 & -- & \textcolor{muted}{--} \\
+\quad Fixed repair per task & \npbar[bargrey]{0.460}{46.0} & \textcolor{muted}{0.442} & 694 & 0.477 & 0.92 & $+$0.8 {\scriptsize[$-$4.1, 5.6]} & \textcolor{muted}{$+$1.0 {\scriptsize[$-$3.8, 5.7]}} \\
+\quad Home before every target\tnote{a} & \npbar[bargrey]{\underline{0.478}}{47.8} & \textcolor{muted}{0.460} & 631 & 0.501 & 0.93 & $+$2.6 {\scriptsize[$-$1.8, 6.8]} & \textcolor{muted}{$+$2.8 {\scriptsize[$-$1.3, 6.9]}} \\
+\addlinespace[2pt]
+\multicolumn{8}{@{}l}{\textit{Repair rules}} \\
+\rowcolor{retrtint}\quad Task-prior repair\tnote{a} & \npbar[bargrey]{0.437}{43.7} & \textcolor{muted}{0.581} & 747 & 0.452 & 0.93 & $-$1.5 {\scriptsize[$-$6.5, 3.5]} & \textcolor{muted}{$+$14.8 {\scriptsize[8.7, 21.2]}} \\
+\rowcolor{retrtint}\quad Inverse-skill rule\tnote{a} & \npbar[bargrey]{0.453}{45.3} & \textcolor{muted}{0.604} & 705 & 0.465 & 0.51 & $+$0.0 {\scriptsize[$-$3.6, 3.6]} & \textcolor{muted}{$+$17.1 {\scriptsize[12.2, 22.5]}} \\
+\addlinespace[2pt]
+\multicolumn{8}{@{}l}{\textit{Learned selector}} \\
+\quad Risk gate & \npbar[bargrey]{0.471}{47.1} & \textcolor{muted}{0.619} & 705 & 0.476 & 0.70 & $+$1.8 {\scriptsize[$-$3.1, 6.4]} & \textcolor{muted}{$+$18.7 {\scriptsize[13.0, 24.4]}} \\
+\rowcolor{qaetint}\quad Benefit gate (ours) & \npbar[barblue]{\underline{0.478}}{47.8} & \textcolor{muted}{0.621} & 692 & 0.481 & 0.60 & \marg{$+$2.6} {\scriptsize[$-$1.6, 6.7]} & \textcolor{muted}{$+$18.9 {\scriptsize[13.7, 24.2]}} \\
+\quad Ours + selective retry & \npbar[bargrey]{0.435}{43.5} & \textcolor{muted}{0.601} & 595 & 0.484 & 0.60 & $-$1.8 {\scriptsize[$-$6.3, 2.8]} & \textcolor{muted}{$+$16.9 {\scriptsize[11.5, 22.4]}} \\
+\quad Ours, no retry\tnote{a} & \npbar[bargrey]{0.402}{40.2} & \textcolor{muted}{0.570} & 547 & 0.477 & 0.60 & $-$5.1 {\scriptsize[$-$9.9, $-$0.3]} & \textcolor{muted}{$+$13.8 {\scriptsize[8.1, 19.8]}} \\
+\quad Ours, locator-free\tnote{a} & \npbar[bargrey]{0.465}{46.5} & \textcolor{muted}{0.616} & 690 & 0.478 & 0.49 & $+$1.3 {\scriptsize[$-$2.8, 5.2]} & \textcolor{muted}{$+$18.4 {\scriptsize[13.6, 23.5]}} \\
+\quad Ours, no prior input\tnote{a} & \npbar[bargrey]{\textbf{0.483}}{48.3} & \textcolor{muted}{0.529} & 662 & 0.502 & 0.37 & $+$3.1 {\scriptsize[$-$0.3, 6.1]} & \textcolor{muted}{$+$9.7 {\scriptsize[5.8, 13.7]}} \\

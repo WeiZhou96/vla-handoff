@@ -1,0 +1,145 @@
+{
+ "time": "2026-10-11 21:00:43",
+ "host": "ps",
+ "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+ "platform": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39",
+ "sklearn": "1.9.0",
+ "numpy": "1.26.4",
+ "locked_config_sha256": "7a0c297dfdd7a2869d3ebc1a4d94fdc6714589e238665d11ab08ee8bf32dfa2e",
+ "prereg_sha256": "4c1eaba310383dfba9505062c0a17c045b836259b605b13848e43f5001cf90d5",
+ "label_tree_digest": "c342234e9c4e194d2723a17bf0f731f0d3eaa15ef7a2a9f200038b83107b3b91",
+ "files": {
+  "model_v4": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/models/benefit_models_v4_all.joblib",
+   "sha256": "3e3d3df496bf3be54fa64c22162c2c9b42ef3ede7dc299c5b51fbf744c9f15a8"
+  },
+  "model_v3_all_benefit_A": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_20261003/models/benefit_models_v3_all.joblib",
+   "sha256": "dba0dcb0fd1780c46635db4f6df305901681976a81d05c48611b27a1792734d1"
+  },
+  "jobs_cl3": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/jobs_cl3.json",
+   "sha256": "405753cba134793d77a71118f9ec0b7a921d8648f70a3327eaa5b4f4d73e9880"
+  },
+  "plan_report": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/plan_report.json",
+   "sha256": "6c408a2a179352a68c5ec29622f8b6b91cf1eeefd2c6e9fc30703638d49127ae"
+  },
+  "prereg_round3": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/prereg_round3.md",
+   "sha256": "4c1eaba310383dfba9505062c0a17c045b836259b605b13848e43f5001cf90d5"
+  },
+  "round2_config_original": {
+   "path": "<HANDOFF_RUN_ROOT>/closedloop2_20261005/locked_config.json",
+   "sha256": "0edf0453217feb76ee9c6c46d7d416148f0872c8901b46034a31e4858b501202"
+  },
+  "round2_config_frozen_copy": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/config_benefit_A_round2_frozen.json",
+   "sha256": "0edf0453217feb76ee9c6c46d7d416148f0872c8901b46034a31e4858b501202"
+  },
+  "round1_config": {
+   "path": "<HANDOFF_RUN_ROOT>/closedloop_20261004/locked_config.json",
+   "sha256": "b7af69e0dc36c17b2304564a3a498bb6328600af8784be83bf5c8a697ba3d7ff"
+  },
+  "catalog": {
+   "path": "<RHO_ROOT>/outputs/experiments/two_task_expansion_20260913_222701/logs/sequence_catalog.json",
+   "sha256": "8a3b00a2a9bccf6cbae791ed56e1a201dbbc2e87562d111e865c6e07ad064a6f"
+  },
+  "label_check": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/label_check.json",
+   "sha256": "14d7710b8424c9d2a6987cdc415b9c98e24c8bdb1949fbaa3e7f84eea9a0fea3"
+  },
+  "tune_report": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/tune_report.json",
+   "sha256": "eeec3fa25f5ad1a9cdf9ed56eb943484c27793dfc86b7bf9bbdac2100c497f12"
+  },
+  "v4_report": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/v4_report_all.json",
+   "sha256": "4856f16147a5ec62b754f6a2ac11e10b3db64a84b9053aa784d5dfd78f30bd90"
+  },
+  "v4_rows": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/v4_rows_all.json",
+   "sha256": "e114c580274d86087ebcf2b013aec6f8f0a165402afce99f6c29552d976bafab"
+  },
+  "v4_report_rpexclude": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/v4_report_all_rpexclude.json",
+   "sha256": "ac5f65d46d9efd63cb0dff7941da6e917f5f843fb3e660962f1a55571afaca88"
+  },
+  "cache_provenance": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/cache_provenance.json",
+   "sha256": "e109d829bf1af5756a22e0dd0da5e3b572ae3fabc2bf5ee697f13b093891e817"
+  },
+  "fixture_inputs": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/fixture_inputs.npz",
+   "sha256": "d0e9f0d3f9f81252e4b6c8881cb60d947b651dfa16fa90ed96d77d7c945db9bd"
+  },
+  "fixture_expected": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/fixture_expected.json",
+   "sha256": "ee7e4b9ef2242d524b8d36b171c879dab835dc3ddc42080331dfb007caf56fd9"
+  },
+  "label_files_list": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/analysis/label_files.sha256",
+   "sha256": "7c6e5b8b527e9f21dcd45a3ea3845d1d379963921bcc70511bd3ac7ede3bcf11"
+  },
+  "code_train_benefit_v4": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/train_benefit_v4.py",
+   "sha256": "0cdc144061d6525ed721c3113f0dd20c3d3a4f3287a802f065b66e9b202ad924"
+  },
+  "code_lock_config3": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/lock_config3.py",
+   "sha256": "0774027780387f809f5adee9b711fbea58dc0a6df0b6682dd4e94c19ed228f8e"
+  },
+  "code_plan_cl3": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/plan_cl3.py",
+   "sha256": "152d34fc0c1bb337200cc9e51290868bc6c82df61cbf299cc21c5e8babb4ddbb"
+  },
+  "code_run_sh": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_bdef_20261011/run.sh",
+   "sha256": "ba9f5455fe2b3a483df82a6f39945b2eb582862d9901866ff486e1a53a46a72f"
+  },
+  "lib_benefit_lib": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_20261003/benefit_lib.py",
+   "sha256": "7b27f0ae4da73391fe339e8898e0db1cf440898c03765854f4267ef75bdecfee"
+  },
+  "lib_benefit_lib_v2": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_20261003/benefit_lib_v2.py",
+   "sha256": "7195c17f1dc7cfb7ce19738a816dfb8256bfda1777fe1b3d31b3fffd6dedb235"
+  },
+  "lib_benefit_lib_v3": {
+   "path": "<HANDOFF_RUN_ROOT>/benefit_model_20261003/benefit_lib_v3.py",
+   "sha256": "cce9c59398b4974a9d323a45824ca1f5fcf6a28e996eb1e987591e528e3fb177"
+  },
+  "lib_features_patch": {
+   "path": "<HANDOFF_RUN_ROOT>/fix_20260928/features_patch.py",
+   "sha256": "351fd26f7bc0f89e453b49f3f260b5d7b69b2e16af9302096ac0d765988e3f6b"
+  },
+  "lib_object_locator": {
+   "path": "<HANDOFF_RUN_ROOT>/fix_20260928/object_locator.py",
+   "sha256": "20ca40af1ed29fc35361b037eda6342043d6cd06ca705051ffc6cd87b5a4edd5"
+  },
+  "lib_evaluate_cv": {
+   "path": "<HANDOFF_RUN_ROOT>/fix_20260928/evaluate_cv.py",
+   "sha256": "3f454781f158486de9a0bf5f78f2d396366db8c341d263772a50e38af375d57f"
+  },
+  "worker_cl2": {
+   "path": "<HANDOFF_RUN_ROOT>/closedloop_20261004/worker_cl2.py",
+   "sha256": "e2612437c13cd4ed76cda0f9116958bda6127def5be78abd67ff094b3d322855"
+  },
+  "worker_cl_perturb": {
+   "path": "<HANDOFF_RUN_ROOT>/closedloop_20261004/worker_cl.py",
+   "sha256": "cc1006852d6a8ac7f7f93a375bfcac506579df33c049c027ff13fdabf5417f47"
+  },
+  "worker_scripted_repair": {
+   "path": "<HANDOFF_RUN_ROOT>/multitask_vocab_20261002/worker.py",
+   "sha256": "cae961209b79738004854186a4f97e6bf717cf3b7f6da2e62fbf016d8f5aa2a4"
+  },
+  "fc_worker_modeB": {
+   "path": "<HANDOFF_RUN_ROOT>/fullchain_replay_20261010/fc_worker.py",
+   "sha256": "5e460ecd83682e54ba86dc173cc2f80168bd19557fe395a8479f1e38ad2ca695"
+  },
+  "relabel_mapping_0": {
+   "path": "<HANDOFF_RUN_ROOT>/relabel_bdef_20261011/mapping.json",
+   "sha256": "9fe57a6ecaf6069d279c1edae3b9b3b7ef4986082a617c0db06fe0f068304c73"
+  }
+ }
+}

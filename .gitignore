@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated figures (written by analysis/fig_*.py)
+figures/*
+!figures/.gitkeep
+
+# Local configuration of the simulator workers
+experiments/rho/configs/paths.yaml
+experiments/rho/configs/calvin.yaml
+
+# Experiment outputs, logs, caches, models and data written next to the experiment code
+experiments/**/results*/
+experiments/**/claims*/
+experiments/**/errors*/
+experiments/**/logs/
+experiments/**/cache/
+experiments/**/models/
+experiments/**/runs/
+experiments/**/*.joblib
+experiments/**/*.npz
+experiments/**/*.pid
+experiments/paper_draft_*/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

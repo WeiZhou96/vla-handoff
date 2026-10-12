@@ -1,0 +1,239 @@
+{
+ "ok": true,
+ "targets": [
+  "lift_blue_block_slider",
+  "lift_pink_block_drawer",
+  "lift_pink_block_slider",
+  "lift_red_block_slider",
+  "push_blue_block_right",
+  "push_into_drawer",
+  "push_pink_block_right",
+  "push_red_block_right",
+  "rotate_pink_block_right",
+  "rotate_red_block_left",
+  "stack_block"
+ ],
+ "n_total": 627,
+ "n_target_planned": 627,
+ "per_task": 57,
+ "sample_size": {
+  "alpha_one_sided": 0.025,
+  "power": 0.8,
+  "effect": 0.05,
+  "sd": 0.411,
+  "deff": 1.11,
+  "exclusion_allowance": 0.05,
+  "n_required": 589,
+  "n_inflated": 620,
+  "n_total": 627,
+  "n_analysed_assumed": 595,
+  "mde_at_n_analysed": {
+   "r1 benefit-retry": 0.0493,
+   "r2 benefit-retry": 0.0376,
+   "r1 benefit-none": 0.052,
+   "r2 benefit-none": 0.0443,
+   "r1 benefit-prior": 0.0417,
+   "r2 benefit-prior": 0.0439,
+   "r1 benefit_noretry-retry": 0.056,
+   "r2 benefit_noretry-retry": 0.0404
+  }
+ },
+ "catalog": {
+  "size": 6000,
+  "excluded": 1348,
+  "excluded_r1r2": 793,
+  "dev_linked": 737,
+  "dev_linked_not_r1r2": 551,
+  "excluded_duplicates_only": 4
+ },
+ "previous_rounds": {
+  "r1": {
+   "n": 391,
+   "idx": 391,
+   "bases": 100,
+   "base_formula_match": 391,
+   "tasks_match": 391
+  },
+  "r2": {
+   "n": 402,
+   "idx": 402,
+   "bases": 185,
+   "base_formula_match": 402,
+   "tasks_match": 402
+  }
+ },
+ "dev_linkage": {
+  "records": {
+   "raw_two_task": 939,
+   "j8_two_task": 400,
+   "multitask_vocab_20261002:j8": 390,
+   "multitask_vocab_20261002:jobs": 937,
+   "gating_vocab_20261003:jobs": 300,
+   "newtasks_20261004:j8": 720,
+   "newtasks_20261004:jobs": 1198,
+   "repair_20261001:plan": 82
+  },
+  "methods": {
+   "j8_two_task|field:index": {
+    "candidates": 400,
+    "valid": 304,
+    "invalid": 0,
+    "unknown": 96,
+    "accepted": true,
+    "n_indices": 304
+   },
+   "multitask_vocab_20261002:jobs|field:index": {
+    "candidates": 937,
+    "valid": 546,
+    "invalid": 0,
+    "unknown": 391,
+    "accepted": true,
+    "n_indices": 182
+   },
+   "gating_vocab_20261003:jobs|field:index": {
+    "candidates": 300,
+    "valid": 300,
+    "invalid": 0,
+    "unknown": 0,
+    "accepted": true,
+    "n_indices": 149
+   },
+   "newtasks_20261004:jobs|field:index": {
+    "candidates": 1198,
+    "valid": 478,
+    "invalid": 0,
+    "unknown": 720,
+    "accepted": true,
+    "n_indices": 235
+   },
+   "repair_20261001:plan|field:index": {
+    "candidates": 82,
+    "valid": 82,
+    "invalid": 0,
+    "unknown": 0,
+    "accepted": true,
+    "n_indices": 82
+   }
+  }
+ },
+ "availability": {
+  "lift_blue_block_slider": {
+   "chains": 575,
+   "bases": 95
+  },
+  "lift_pink_block_drawer": {
+   "chains": 34,
+   "bases": 23
+  },
+  "lift_pink_block_slider": {
+   "chains": 519,
+   "bases": 95
+  },
+  "lift_red_block_slider": {
+   "chains": 433,
+   "bases": 94
+  },
+  "push_blue_block_right": {
+   "chains": 157,
+   "bases": 66
+  },
+  "push_into_drawer": {
+   "chains": 468,
+   "bases": 112
+  },
+  "push_pink_block_right": {
+   "chains": 137,
+   "bases": 69
+  },
+  "push_red_block_right": {
+   "chains": 138,
+   "bases": 65
+  },
+  "rotate_pink_block_right": {
+   "chains": 140,
+   "bases": 66
+  },
+  "rotate_red_block_left": {
+   "chains": 159,
+   "bases": 68
+  },
+  "stack_block": {
+   "chains": 1033,
+   "bases": 187
+  }
+ },
+ "selection_order": [
+  "lift_pink_block_drawer",
+  "push_pink_block_right",
+  "push_red_block_right",
+  "rotate_pink_block_right",
+  "push_blue_block_right",
+  "rotate_red_block_left",
+  "lift_red_block_slider",
+  "push_into_drawer",
+  "lift_pink_block_slider",
+  "lift_blue_block_slider",
+  "stack_block"
+ ],
+ "shortfall": {
+  "lift_pink_block_drawer": 23
+ },
+ "filled": 23,
+ "strata": {
+  "lift_blue_block_slider": 59,
+  "lift_pink_block_drawer": 34,
+  "lift_pink_block_slider": 59,
+  "lift_red_block_slider": 59,
+  "push_blue_block_right": 59,
+  "push_into_drawer": 59,
+  "push_pink_block_right": 60,
+  "push_red_block_right": 60,
+  "rotate_pink_block_right": 60,
+  "rotate_red_block_left": 59,
+  "stack_block": 59
+ },
+ "bases": 186,
+ "max_chains_per_base": 8,
+ "bases_per_stratum": {
+  "lift_blue_block_slider": 57,
+  "lift_pink_block_drawer": 23,
+  "lift_pink_block_slider": 57,
+  "lift_red_block_slider": 57,
+  "push_blue_block_right": 57,
+  "push_into_drawer": 57,
+  "push_pink_block_right": 57,
+  "push_red_block_right": 57,
+  "rotate_pink_block_right": 57,
+  "rotate_red_block_left": 57,
+  "stack_block": 57
+ },
+ "target_handoffs_pos1_4": {
+  "lift_blue_block_slider": 89,
+  "lift_pink_block_drawer": 34,
+  "lift_pink_block_slider": 100,
+  "lift_red_block_slider": 109,
+  "push_blue_block_right": 63,
+  "stack_block": 143,
+  "push_into_drawer": 117,
+  "push_pink_block_right": 64,
+  "push_red_block_right": 63,
+  "rotate_pink_block_right": 70,
+  "rotate_red_block_left": 62
+ },
+ "first_target_task": {
+  "lift_blue_block_slider": 62,
+  "lift_pink_block_drawer": 8,
+  "lift_pink_block_slider": 64,
+  "lift_red_block_slider": 66,
+  "push_blue_block_right": 56,
+  "push_into_drawer": 80,
+  "push_pink_block_right": 55,
+  "push_red_block_right": 56,
+  "rotate_pink_block_right": 65,
+  "rotate_red_block_left": 52,
+  "stack_block": 63
+ },
+ "push_rotate_chains": 322,
+ "unseen_base_chains": 0,
+ "unseen_bases": 0
+}

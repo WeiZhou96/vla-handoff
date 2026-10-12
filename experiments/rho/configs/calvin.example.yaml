@@ -1,0 +1,6 @@
+# Copy to calvin.yaml in this directory ($RHO_ROOT/configs/calvin.yaml).
+# max_steps and sequence_catalog are overwritten by the workers at start-up.
+policy_sha256: "<sha256 of the policy checkpoint; only recorded in the run protocol>"
+max_steps: 360
+action_chunk: 5        # actions executed per policy call
+flow_steps: 5          # flow-matching steps per policy call

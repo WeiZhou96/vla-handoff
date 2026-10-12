@@ -1,0 +1,167 @@
+{
+ "lift_red_block_slider": {
+  "n": 30,
+  "p_none": 0.20833333333333334,
+  "p_top1": 0.825,
+  "gain_top1": [
+   0.6166666666666667,
+   0.46296296296296297,
+   0.7500976562499995
+  ],
+  "p_rand": 0.23125,
+  "gain_rand": [
+   0.022916666666666665,
+   -0.06733870967741935,
+   0.10561961206896543
+  ],
+  "oracle_split": 0.8833333333333333,
+  "concordance": 0.788235294117647,
+  "concordance_pairs": 255,
+  "top1_counts": {
+   "move_slider_right": 12,
+   "close_drawer": 4,
+   "turn_off_lightbulb": 4,
+   "place_in_drawer": 2,
+   "rotate_blue_block_left": 1
+  }
+ },
+ "push_blue_block_right": {
+  "n": 40,
+  "p_none": 0.075,
+  "p_top1": 0.215625,
+  "gain_top1": [
+   0.140625,
+   0.04276115211810013,
+   0.25625
+  ],
+  "p_rand": 0.1328125,
+  "gain_rand": [
+   0.0578125,
+   0.007254674732872408,
+   0.10864955357142847
+  ],
+  "oracle_split": 0.45625,
+  "concordance": 0.5333333333333333,
+  "concordance_pairs": 315,
+  "top1_counts": {
+   "place_in_slider": 14,
+   "push_blue_block_left": 5,
+   "open_drawer": 4,
+   "stack_block": 3,
+   "lift_red_block_slider": 2
+  }
+ },
+ "push_into_drawer": {
+  "n": 32,
+  "p_none": 0.63671875,
+  "p_top1": 0.7734375,
+  "gain_top1": [
+   0.13671875,
+   -0.04300340221774193,
+   0.3085994944852941
+  ],
+  "p_rand": 0.62890625,
+  "gain_rand": [
+   -0.0078125,
+   -0.15820638020833333,
+   0.140625
+  ],
+  "oracle_split": 0.8671875,
+  "concordance": 0.5955056179775281,
+  "concordance_pairs": 356,
+  "top1_counts": {
+   "close_drawer": 15,
+   "open_drawer": 4,
+   "unstack_block": 2,
+   "home": 2,
+   "place_in_slider": 2
+  }
+ },
+ "push_red_block_right": {
+  "n": 40,
+  "p_none": 0.040625,
+  "p_top1": 0.23125,
+  "gain_top1": [
+   0.190625,
+   0.08881578947368421,
+   0.29879452824133496
+  ],
+  "p_rand": 0.0734375,
+  "gain_rand": [
+   0.0328125,
+   -0.004690504807692307,
+   0.07401315789473684
+  ],
+  "oracle_split": 0.503125,
+  "concordance": 0.6,
+  "concordance_pairs": 275,
+  "top1_counts": {
+   "rotate_red_block_left": 5,
+   "push_blue_block_left": 4,
+   "stack_block": 4,
+   "lift_red_block_slider": 3,
+   "open_drawer": 3
+  }
+ },
+ "rotate_pink_block_right": {
+  "n": 39,
+  "p_none": 0.28846153846153844,
+  "p_top1": 0.5865384615384616,
+  "gain_top1": [
+   0.2980769230769231,
+   0.21247596153846154,
+   0.3851421734234234
+  ],
+  "p_rand": 0.38461538461538464,
+  "gain_rand": [
+   0.09615384615384616,
+   0.0128125,
+   0.17362938596491218
+  ],
+  "oracle_split": 0.6923076923076923,
+  "concordance": 0.6623655913978495,
+  "concordance_pairs": 465,
+  "top1_counts": {
+   "close_drawer": 19,
+   "open_drawer": 11,
+   "push_blue_block_left": 2,
+   "home": 2,
+   "lift_red_block_slider": 1
+  }
+ },
+ "ALL": {
+  "n": 181,
+  "p_none": 0.23480662983425415,
+  "p_top1": 0.4986187845303867,
+  "gain_top1": [
+   0.2638121546961326,
+   0.19915058066541116,
+   0.3302605929642166
+  ],
+  "p_rand": 0.2779696132596685,
+  "gain_rand": [
+   0.043162983425414365,
+   0.006982270328988206,
+   0.08414930555555548
+  ],
+  "oracle_split": 0.6609116022099447,
+  "concordance": 0.6326530612244898,
+  "concordance_pairs": 1666,
+  "top1_counts": {
+   "close_drawer": 42,
+   "open_drawer": 22,
+   "place_in_slider": 20,
+   "move_slider_right": 12,
+   "push_blue_block_left": 11
+  }
+ },
+ "G3": {
+  "criterion": "at least 2 tasks with top-1 vocabulary repair gain >= 15pp and CI lower bound > 0",
+  "tasks_passing": [
+   "lift_red_block_slider",
+   "push_red_block_right",
+   "rotate_pink_block_right"
+  ],
+  "passed": true
+ }
+}

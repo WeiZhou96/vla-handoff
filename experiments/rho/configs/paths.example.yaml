@@ -1,0 +1,5 @@
+# Copy to paths.yaml in this directory ($RHO_ROOT/configs/paths.yaml) and fill in absolute paths.
+# Read by every simulator worker and passed to rho.envs.s02_calvin.CalvinAdapter.
+rlinf_root: /path/to/RLinf            # RLinf checkout; the adapter imports rlinf.envs.calvin and the openpi toolkit
+calvin_root: /path/to/calvin          # CALVIN checkout containing calvin_models/ and calvin_env/
+policy_dir: /path/to/pi05_calvin      # frozen pi0.5 CALVIN checkpoint loaded with config_name "pi05_calvin" (POLICY_DIR)

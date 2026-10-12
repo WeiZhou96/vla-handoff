@@ -1,0 +1,32 @@
+{
+ "time": "2026-10-11 21:30:28",
+ "host": "ps",
+ "note": "prereg_round3.md §7/§12: stage-3 worker and analysis hashed before the first stage-3 job; smoke chains are unchanged jobs of jobs_cl3.json, not part of the analysed sample (§10: all 627 chains run with the full design); the full run re-runs them and only bitwise identity is reported",
+ "files": {
+  "worker_cl3.py": {
+   "sha256": "b230384167a6ec41101c99c0db1d9bf0a5382b59394df1b520ebbe0784afd55e"
+  },
+  "analyze_cl3.py": {
+   "sha256": "e03d08a5701573568ca1dced90a8063c9914ab80b2fd169544ab533854e9b465"
+  },
+  "run.sh": {
+   "sha256": "b11a0d8122cb15e71437155797bb890bdeaf5ca5b97bd5e85b261eeedc947263"
+  },
+  "supervise_multi.py": {
+   "sha256": "1928e22a1f4c9a3170e99fde5e37103854342d42289d3326187962dcebc17082"
+  }
+ },
+ "scheduler_source": {
+  "path": "<HANDOFF_RUN_ROOT>/newtasks_20261004/supervise_multi.py",
+  "sha256": "1928e22a1f4c9a3170e99fde5e37103854342d42289d3326187962dcebc17082"
+ },
+ "locked_config_sha256": "7a0c297dfdd7a2869d3ebc1a4d94fdc6714589e238665d11ab08ee8bf32dfa2e",
+ "prereg_sha256": "4c1eaba310383dfba9505062c0a17c045b836259b605b13848e43f5001cf90d5",
+ "smoke_ids": [
+  "cl3_34",
+  "cl3_38",
+  "cl3_128",
+  "cl3_19"
+ ],
+ "smoke_counts_in_analysis": false
+}
